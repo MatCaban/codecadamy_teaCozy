@@ -25,3 +25,31 @@ header {
   height: 69px;
   border-bottom: 1px solid seashell;
 }
+
+/* Mission Section */
+.mission {
+  display: flex;
+  justify-content: center;
+}
+
+.mission-background {
+  background-image: url("../images/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission-background div {
+  background-color: black;
+  text-align: center;
+  width: 1200px;
+  opacity: 0.9;
+}
+.mission-background div h2 {
+  margin-top: 15px;
+}
+.mission-background div h4 {
+  margin-bottom: 10px;
+}
