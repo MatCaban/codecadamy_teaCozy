@@ -21,6 +21,15 @@ h4 {
 ol,
 ul {
   list-style: none;
+  color: seashell;
+}
+
+a {
+  all: unset;
+}
+
+a:hover {
+  cursor: pointer;
 }
 
 img {
