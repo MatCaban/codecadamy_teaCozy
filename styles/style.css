@@ -1,5 +1,33 @@
+/* CSS RESET*/
+
+body,
+h1,
+h3,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+h2,
+h4 {
+  margin: 15px;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica;
   font-size: 22px;
   color: seashell;
   background-color: black;
@@ -13,15 +41,16 @@ header img {
 }
 
 header ul {
-  list-style-type: none;
   display: flex;
   gap: 20px;
   text-decoration: underline;
+  margin-right: 10px;
 }
 
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   height: 69px;
   border-bottom: 1px solid seashell;
 }
@@ -47,9 +76,33 @@ header {
   width: 1200px;
   opacity: 0.9;
 }
-.mission-background div h2 {
-  margin-top: 15px;
+
+/* Tea Of The Month Section*/
+.tea-of-month {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.mission-background div h4 {
-  margin-bottom: 10px;
+
+.tom-heading {
+  width: 1000px;
+  text-align: center;
+}
+figure {
+  margin: 10px 15px;
+}
+figcaption {
+  text-align: center;
+  margin-top: 10px;
+}
+.tom-pictures img {
+  height: 200px;
+  width: 300px;
+}
+
+.tom-pictures {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
